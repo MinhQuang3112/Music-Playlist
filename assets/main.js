@@ -92,6 +92,12 @@ const app={
       singer:'Rhymastic',
       path:'./assets/media/Treasure.mp3',
       image:'./assets/img/treasure.jpg'
+    },
+    {
+      name:'Sao cũng được',
+      singer:'BinZ',
+      path:'./assets/media/Sao cũng được.mp3',
+      image:'./assets/img/sao cũng được.jpg'
     }
   ],
   render(){
