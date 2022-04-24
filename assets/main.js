@@ -202,16 +202,19 @@ const app={
     audioEl.onended=function(){
       if(_this.isRandom){
         _this.randomSong()
+        _this.render()
         _this.scrollToSong()
         audioEl.play()
       }
       else if(_this.isRepeat){
         _this.loadCurrentSong()
+        _this.render()
         _this.scrollToSong()
           audioEl.play()
       }
       else{
         _this.nextSong()
+        _this.render()
         _this.scrollToSong()
         audioEl.play()
       }
